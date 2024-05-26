@@ -1,0 +1,181 @@
+:root {
+    --bg-color: #8dbbf7;
+}
+body {
+    /*COLOR DE PAGINA DIFUMINADO*/
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.t1 {
+    text-align: center;
+    font-size: 5rem;
+    padding: 0%;
+    height: 45%;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado de center a flex-start */
+    margin-top: 20px;
+}
+
+.texto-biografia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.img1 {
+    width: 380px;
+    height: 450px;
+    margin: 2px;
+    padding: 3%;
+    border: 10rem;
+    
+
+}
+
+.p1 {
+    font-size: 1.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    padding: 5%;
+    
+}
+
+
+@media (max-width: 768px) {
+    .imagenes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 {
+        width: 50%;
+        height: 30%;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+
+    .texto-biografia {
+        width: 100%;
+        align-items: center;
+    }
+
+    .titulo-biografia {
+        width: 100%;
+        text-align: center;
+    }
+
+    .premios {
+        flex-direction: column;
+    }
+
+    .spotyfy {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.t3{
+    font-size: 2rem;
+}
+
+.spotyfy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Añade un espacio entre los iframes */
+    flex-wrap: wrap; /* Permite que los iframes se ajusten en varias filas si el ancho es insuficiente */
+    margin-top: 20px;
+}
+
+.spotyfy {
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.spotyfy {
+        flex-direction: column;
+        align-items: center;
+    }
+    .spotyfy {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .premios {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .premio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .PR1{
+       width: 15.2rem;
+    }
+
+    .PR2{
+        width: 13.9rem;
+     }
+
+     .PR3{
+        width: 13rem;
+     }
+    .titulo-premios {
+        font-size: 2rem;
+    }
+    
+    /*Social buttons*/
+
+  .socials{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+   }
+ 
+   .socicon{
+    width: 3rem;
+    height: 3rem;
+   }
+
+   /*Footer section*/
+  footer{
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+   }
+
+
+ .estilo{
+   padding: 5rem;
+
+ }  
+.estilo_t{
+font-size: 2.5rem;
+text-align: center;
+}
+
+.estilo_p{
+    font-size: 1.3rem;
+    text-align: start;
+
+}
+
+.estilo_i{
+    align-content: center;
+}
